@@ -20,6 +20,7 @@ const mint = generateSigner(umi);
     let tx = await createNft(umi, {
                              mint,
                             name: 'Claudio Rug',
+                            symbol: 'CR',
                             uri: "https://devnet.irys.xyz/8SNzCMph3QQLfAYkh46EQgEagegH8LQyRYHcLcKSd7UB",
                             sellerFeeBasisPoints: percentAmount(5.5),
                     });
